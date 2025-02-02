@@ -4,11 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * {
+            text-align: center;
+        }
+        .h2 {
+            text-align: center;
+            font-size: xx-large;
+        }
+        .imags {
+            display: grid;
+            gap: 50px;
+            grid-template-columns: auto auto auto;
+            justify-content: space-evenly;
+        }
+        img {
+            width: 500px;
+            height: 340px;
+            object-fit: cover;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: large;
+        }
+        button {
+            background-color: red;
+            padding: 10px;
+            border: 0;
+            border-radius: 10%;
+        }
+    </style>
 </head>
 <body>
-    <img src="nacvrlja.jpg" alt="" style="width: 200px;">
+    <img src="images/nacvrlja.jpg" alt="" style="width: 200px;">
     <h1>Nataša Cvrlja</h1>
     <h4>Web Developer & Designer</h4>
     <p>Pozdrav, ja sam početni Web Developer, sa puno motivacije i otvorenosti za učenje. <br> Pored programiranja voli da se bavim i kreativnošću, kao što su slikanje, dizajniranje objava, logoa i skoro sam počela da se bavim i fotografisanjem.</p>
+<br>
+    <button><a href="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGprbXEwbjR2Z2huOXVhZ2dpNHRsYjYyOXYzYTJjcTJkeW04dnNreCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HlCV8U15grrbVaU/giphy.gif" target="_blank">Click me for a suprise</a></button>
+<br>
+    <h2 class="h2">Ispod su fotografije koje sam ja napravila u poslednjih mesec dana:</h2>
+    <hr>
+    <div class="imags">
+        <img src="images/nemacka_jutric.jpg" alt="">
+        <img src="images/nemacka_setnja.jpg" alt="">
+        <img src="images/nemacka_jutro.jpg" alt="">
+        <img src="images/srbija_kuco.jpg" alt="">
+        <img src="images/srbija_ljubav.jpg" alt="">
+        <img src="images/srbija_kuca.jpg" alt="">
+        <img src="images/bec_park.jpg" alt="">
+        <img src="images/bec_guza.jpg" alt="">
+        <img src="images/bec_svetlost.jpg" alt="">
+    </div>
+    <hr>
 </body>
 </html>
